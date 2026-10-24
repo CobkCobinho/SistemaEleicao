@@ -17,7 +17,7 @@ Não foram incluídos integrantes fictícios. Se o ambiente de entrega exigir no
 | Repositório Git e solução .NET | `SistemaEleicao.sln` e histórico Git |
 | Projeto de console e projeto xUnit | `SistemaEleicao.Console` e `SistemaEleicao.Tests` |
 | Referência do projeto de testes ao principal | `ProjectReference` no projeto xUnit |
-| Primeiro commit com Conventional Commits | `chore: initial project structure with console and xunit apps` |
+| Primeiro commit com Conventional Commits | `chore: initial project structure with console and xunit apps` no histórico original preservado no bundle |
 | Cadastrar nome e número do candidato | `Candidato` e `EleicaoManager.CadastrarCandidato` |
 | Impedir números duplicados | `CandidatoTests.CadastrarCandidato_RejeitaNumeroDuplicado` |
 | Registrar eleitores por documento simulado | `Eleitor` e `EleicaoManager.RegistrarEleitor` |
@@ -55,3 +55,7 @@ Não foram incluídos integrantes fictícios. Se o ambiente de entrega exigir no
 ## Entrega acadêmica
 
 O produto solicitado é o link do repositório público com o código, os testes, o README e o histórico. A submissão no ambiente da instituição e o prazo não foram informados; não foi realizada uma submissão acadêmica em nome do aluno.
+
+## Histórico original e publicação
+
+O arquivo `SistemaEleicao-historico.bundle` na raiz permite recuperar os 8 commits originais do desenvolvimento local. A branch pública `main` contém as etapas de envio dos arquivos pelo navegador, também com Conventional Commits. O README explica como abrir o histórico original em outra pasta.
