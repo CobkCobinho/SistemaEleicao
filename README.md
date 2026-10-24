@@ -101,7 +101,14 @@ O arquivo [docs/exemplo-execucao.txt](docs/exemplo-execucao.txt) registra esse c
 
 ## Histórico de desenvolvimento
 
-Os commits seguem **Conventional Commits**, com tipos `chore`, `test`, `feat`, `refactor` e `docs`. Os testes das regras foram registrados antes das implementações correspondentes, seguidos do menu, da separação entre apresentação e domínio e da documentação.
+Os commits seguem **Conventional Commits**, com tipos `chore`, `test`, `feat`, `refactor` e `docs`. O desenvolvimento local registrou os testes das regras antes das implementações correspondentes, seguido do menu, da separação entre apresentação e domínio e da documentação.
+
+O arquivo `SistemaEleicao-historico.bundle`, publicado na raiz, preserva integralmente os **8 commits originais de desenvolvimento**. A branch `main` registra também as etapas de publicação dos arquivos pelo navegador. Ambos os históricos usam Conventional Commits. Para consultar o histórico original em uma pasta separada, execute na raiz do clone:
+
+```sh
+git clone SistemaEleicao-historico.bundle ../SistemaEleicao-desenvolvimento
+git -C ../SistemaEleicao-desenvolvimento log --oneline
+```
 
 ```sh
 git log --oneline
