@@ -1,9 +1,6 @@
 # Sistema de Eleição
 
-Aplicação de console em **C# / .NET 10**, desenvolvida como **trabalho individual** para a atividade de Garantia da Qualidade de Software / Gestão e Qualidade de Software, professor Daniel Henrique Matos de Paiva.
-
-Responsável pelo repositório: [CobkCobinho](https://github.com/CobkCobinho).
-
+Aplicação de console em **C# / .NET 10**, desenvolvida como **trabalho individual** para a atividade de Garantia da Qualidade de Software / Gestão e Qualidade de Software.
 ## Executar
 
 Instale o **SDK do .NET 10** e o Git. Na pasta onde deseja manter o projeto:
